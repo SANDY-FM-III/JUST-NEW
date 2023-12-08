@@ -150,7 +150,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                          InlineKeyboardButton("🔆 Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🔆", callback_data=f'generate_stream_link:{file_id}')
+                          InlineKeyboardButton("🌈  Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🌈", callback_data=f'generate_stream_link:{file_id}')
                          ]
                         ]
                     )
@@ -166,7 +166,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                          InlineKeyboardButton("🔆 Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🔆", callback_data=f'generate_stream_link:{file_id}')
+                          InlineKeyboardButton("🌈  Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🌈", callback_data=f'generate_stream_link:{file_id}')
                          ]
                         ]
                     )
@@ -327,7 +327,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                      InlineKeyboardButton("🔆 Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🔆", callback_data=f'generate_stream_link:{file_id}')
+                      InlineKeyboardButton("🌈  Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🌈", callback_data=f'generate_stream_link:{file_id}')
                      ]
                     ]
                 )
@@ -382,7 +382,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                      InlineKeyboardButton("🔆 Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🔆", callback_data=f'generate_stream_link:{file_id}')
+                      InlineKeyboardButton("🌈  Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🌈", callback_data=f'generate_stream_link:{file_id}')
                      ]
                     ]
                 )
@@ -436,7 +436,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-              InlineKeyboardButton("🔆 Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🔆", callback_data=f'generate_stream_link:{file_id}')
+              InlineKeyboardButton("🌈  Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🌈", callback_data=f'generate_stream_link:{file_id}')
              ]
             ]
         )

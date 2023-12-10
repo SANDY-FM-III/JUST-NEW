@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '#####'))
-API_HASH = environ.get('API_HASH', '#####')
-BOT_TOKEN = environ.get('BOT_TOKEN', "#####")
+API_ID = int(environ.get('API_ID', '17714826'))
+API_HASH = environ.get('API_HASH', '43233bbf9f16c07a73d6471d53fa6db9')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -23,10 +23,10 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 STREAM_CAP = environ.get("STREAM_CAP", f"{script.STREAM_CAP}")
 
-PICS = (environ.get('PICS', '######')).split()
-NOR_IMG = environ.get("NOR_IMG", "######")
-MELCOW_VID = environ.get("MELCOW_VID", "#########")
-SPELL_IMG = environ.get("SPELL_IMG", "######")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/10ce98d4446e117df4932.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/10ce98d4446e117df4932.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1960614875').split()]
@@ -45,8 +45,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "#####")
-DATABASE_NAME = environ.get('DATABASE_NAME', "#####")
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "sandman")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others

@@ -79,7 +79,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>Type & Get - t.me/SYRUS_143_HPY</b>"
+         text=f"<b>Type & Get - @Movies_Request_FM1</b>"
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
